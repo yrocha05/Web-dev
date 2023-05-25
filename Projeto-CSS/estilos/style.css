@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../imagens/fundo.png);
+    background-color: beige;
+}
+
+header img {
+    width: 90vw;
+    
+}
+
+
+
+nav div a {
+    text-decoration: none;
+    color: rgb(81, 111, 165);
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0px;
+    font-weight: bold;
+  
+    display: inline-block;
+
+    
+}
+
+main {
+    background-color: beige;
+    width: 90vw;
+
+}
+
+main article{
+    padding: 10px;
+}
+
+main article img {
+    border: 10px solid rgba(173, 173, 154, 0.658);
+}
+
+main article p {
+    padding: 5px;
+    text-align: justify;
+}
+
+main article h2{
+    color: rgb(124, 124, 112);
+}
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+    
+}
