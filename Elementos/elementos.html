@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobrepondo Elementos</title>
+    <style>
+        .conteudo1{
+            border: 2px solid rgb(43, 255, 0);
+            background-color: lightcoral;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            z-index: 10;
+
+        }
+
+        .conteudo2{
+            border: 2px solid rgb(0, 26, 255);
+            background-color: rgb(232, 240, 128);
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 70px;
+            left: 70px;
+            z-index: 2;
+            
+        }
+
+        .conteudo3{
+            border: 2px solid rgb(255, 0, 200);
+            background-color: rgb(135, 128, 240);
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 140px;
+            left: 140px;
+            z-index: 1;
+        }
+
+        /* Z INDEX ALTERA A ORDEM DE VISUALIZAÇÃO BASEADO NO NUMERO COLOCADO */
+
+
+
+    </style>
+</head>
+<body>
+    <div class="conteudo1">
+        Conteudo 1
+    </div>
+    <div class="conteudo2">
+        Conteudo 2
+    </div>
+    <div class="conteudo3">
+        Conteudo 3
+    </div>
+    
+</body>
+</html>
