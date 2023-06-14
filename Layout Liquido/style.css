@@ -18,10 +18,10 @@ body {
 
 #marca{
     width: 100%;
-    height: 100px;
+    height: 200px;
     text-align: center;
-    background: #9e9e9e;
-    line-height: 100px;
+    background: url(img/cabecalho2.jpg) center no-repeat;
+    line-height: 200px;
 }
 
 #conteudo {
@@ -30,13 +30,18 @@ body {
 }
 
 #conteudo-principal{
-    border: 1px solid red;
+    
     width: 63%;
     float: left;
 }
 
+#conteudo-principal img {
+
+    width: 100%;
+}
+
 #conteudo-secundario{
-    border: 1px solid red;
+    
     width: 34%;
     float: right;
     background: #d1d1d1;
@@ -47,7 +52,7 @@ body {
 }
 
 #navegacao{
-    border: 1px solid red;
+    
     width: 23%;
     float: left;
     padding: 20px 0px;
