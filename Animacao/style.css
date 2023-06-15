@@ -1,0 +1,42 @@
+
+@keyframes animacao-caixa{
+    from{
+        background: red;
+        top: 0px;
+        left: 0px;
+
+    }
+    to{
+        background: green;
+        border-radius: 200px;
+        top: -100px;
+        left: -100px;
+    }
+}
+
+
+
+#caixa{
+    height: 400px;
+    width: 400px;
+    background: red;
+    /* animation-name: animacao-caixa;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+    animation-direction: alternate; */
+
+    animation: animacao-caixa 3s 1s 3 alternate;
+}
+
+#caixa2{
+    height: 400px;
+    width: 400px;
+    background: yellow;
+}
+
+#caixa2:hover{
+    width: 500px;
+    background: blue;
+    transition: width 3s, background-color 3s ;
+}
